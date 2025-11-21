@@ -44,6 +44,25 @@
       line-height: 1.6;
     }
 
+    /* Tombol Contact */
+    .contact-btn {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background-color: #ff4d4d;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 600;
+      letter-spacing: .5px;
+      transition: 0.3s;
+    }
+
+    .contact-btn:hover {
+      background-color: #ff6b6b;
+    }
+
     @media (max-width: 600px) {
       h1 {
         font-size: 40px;
@@ -60,5 +79,12 @@
   <h1>rekaman.id</h1>
   <p>Hai! Website ini sedang kami siapkan.<br>
   Tunggu konten-konten seru yang akan kami tampilkan.</p>
+
+  <!-- Tombol Contact -->
+  <button class="contact-btn" onclick="window.location.href='mailto:kerjasama@rekaman.id'">
+    Contact Kerjasama
+  </button>
+
 </body>
 </html>
+
